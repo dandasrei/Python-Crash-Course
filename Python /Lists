@@ -1,0 +1,30 @@
+## Make a List ##
+bikes = ['trek','redline','giant']
+
+## Get the 1st Item in a List ##
+first_bike = bikes[:]
+
+## Looping through a List ##
+for bike in bikes:
+    print(bike)
+
+## Adding Items to a List ##
+bikes = []
+bikes.append('trek')
+bikes.append('redline')
+bikes.append('giant')
+
+## Making Numerical Lists ##
+squares = []
+for x in range (1,11):
+    squares.append(x**2)
+
+## List Comprehensions ##
+squares = [x**2 for x in range (1,11)]
+
+## Slicing a List ##
+finishers = ['sam','bob','ada','bea']
+first_two = finishers [:2]
+
+## Copying a List ##
+copy_of_bikes = bikes [:]
