@@ -1,0 +1,11 @@
+## A simple While Loop ##
+current_value = 1
+while curren_value <= 5:
+  print(current_value)
+  current_value += 1
+
+## Letting the User choose when to quit ##
+msg = ''
+while msg != 'quit':
+  msg = input("What's your Message?")
+  print(msg)
