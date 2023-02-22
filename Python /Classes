@@ -1,0 +1,33 @@
+## Creating a Dog Class ##
+class Dog:
+  """Represent a dog."""
+    def_init_(self, anem):
+    """Initialize dog object."""
+      self.name = name
+      
+    def sit(self):
+      """Simulate sitting."""
+      print(f"{slef.name} is sitting.")
+      
+my_dog = Dog('Peso')
+
+print(f"{my_dog.name} is a great dog!")
+my_dog.sit()
+
+## Inheritance ##
+class SARDog(Dog):
+  """Represent a search dog."""
+  
+  def_init_(self, name):
+    """Initialize the sardog."""
+    super()._init_name(name)
+    
+    def search(slef):
+      ""Simulate Searching."""
+      print(f"{self.name} is searching.")
+      
+my_dog = SARDog('Willie')
+
+print(f"{my_dog.name} is a search dog.")
+my_dog.sit()
+my_dog.search()
