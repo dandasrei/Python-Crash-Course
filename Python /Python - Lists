@@ -1,0 +1,3 @@
+Defining a List
+## Making a List ##
+users = ['val','bob','mia','ron','ned']
