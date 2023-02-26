@@ -1,3 +1,17 @@
 Defining a List
 ## Making a List ##
 users = ['val','bob','mia','ron','ned']
+
+Accessing Elements
+## Getting the 1st Element ##
+first_user = users[0]
+
+## Getting the 2nd Element ##
+second_user = users[1]
+
+## Getting the Last Element ##
+last_user = users[-1]
+
+Modifiying Individual Items
+## Changing an Element ##
+
