@@ -14,4 +14,17 @@ last_user = users[-1]
 
 Modifiying Individual Items
 ## Changing an Element ##
+users[0] = 'valerie'
+users[1] = 'robert'
+users[2] = 'ronald'
 
+Adding Elements
+## Adding an Element to the end of the List ##
+users.append('amy')
+
+## Starting with an empty List ##
+users = []
+users.append('amy')
+users.append('val')
+users.append('bob')
+users.append('mia')
